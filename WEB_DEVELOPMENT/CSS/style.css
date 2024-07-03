@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: aquamarine;
+    height: 60px;
+    position: relative;
+
+}
+
+#logo{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-size: 20px;
+    color: tomato;
+    cursor: pointer;
+}
+
+#menus{
+    position: absolute;
+    top: 15px;
+    right: 210px;
+}
+
+.menu{
+    display: inline;
+    padding-left: 15px;
+}
+
+.menu-name{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.btn{
+    position: absolute;
+    top: 12px;
+    right: 70px;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.active{
+    color: red;
+}
+
+.box{
+    background: red;
+    height: 500px;
+    width: 100%;
+    
+}
+.sm-box{
+    background: black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+.inputs input{
+    height: 40px;
+    width: 300px;
+    display: block;
+    border: 2px solid Blue;
+}

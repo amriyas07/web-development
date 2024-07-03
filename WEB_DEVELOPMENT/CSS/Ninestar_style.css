@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    font-family: "Raleway",sans-serif;
+    height: 90px;
+    overflow: hidden;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+#logo{
+    font-size: 30px;
+    font-weight: 450;
+    color: #7a6960;
+    letter-spacing: 0.7px;
+    padding-left: 80px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+#menus{
+    position: absolute;
+    top: 34px;
+    left: 600px;
+}
+.menu{
+    display: inline;
+    margin-right: 10px;
+}
+.menuname{
+    color: #212529;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.btn{
+    position: absolute;
+    font-family: "Open Sans",sans-serif;
+    top: 22px;
+    right: 120px;
+    text-decoration: none;
+    color: white;
+    background-color: #eb5d1e;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+#banner{
+    height: 100vh;
+    width: 100%;
+}
+
+.sub-parent-banner{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+
+}
+.banner-left{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    text-align: start;
+    padding-top: 170px;
+    padding-left: 60px;
+}
+
+.banner-right{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.banner-title{
+    color:#7a6960;
+    font-size: 48px;
+    font-family: "Raleway",sans-serif;
+}
+.banner-para{
+    font-size: 20px;
+    font-family: "Opens Sans";
+    color: #212529c1;
+    margin-top: 20px;
+}
+.btn-group{
+    position: absolute;
+    top: 380px;
+    left: 210px;
+}
+.btns{
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 20px;
+    letter-spacing: 0.3px;
+}
+.btn1{
+    background-color: #eb5d1e;
+    color: white;
+    font-size: 15px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+}
+.btn2{
+    color: black;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 500;
+    border: 2px solid transparent;
+
+}
+.banner-img{
+    margin-top: 100px;
+    margin-left: 105px;
+    height: 439;
+    width: 636px;
+    background-image: url(/WEB_DEVELOPMENT/HTML/Header/NineStars/banner-img.svg);
+}
+.dot{
+    color: #eb5d1e;
+}
+.logo-text{
+    color: #eb5d1e;
+}
+.btn1:hover{
+    background-color: #f6520b;
+}
+.btn2:hover{
+    border: 2px solid #eb5d1e;
+}
+.menuname:hover{
+    color: #eb5d1e;
+}
+.btn:hover{
+    background-color: #eb5c1ed8;
+}
+.active{
+    color: #eb5d1e;
+}
