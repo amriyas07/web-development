@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(banner-4.jpg);
+    background-size: cover;
+    opacity: 0.85;
+}
+
+#header{
+    background: white;
+    height: 80px;
+    width: 90%;
+    position: sticky;
+    margin-top: 40px;
+    left: 60px;
+    top: 0;
+
+}
+/* .menu-right{
+    background: white;
+} */
+
+#logo{
+    position: absolute;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+    background: #009970;
+}
+
+#menus{
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+
+.menu{
+    display: inline;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+.menuname{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #36343a;
+    font-weight: 500;
+    
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.btn{
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    background: #009970;
+    color: white;
+    border-radius: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+.btn:hover{
+    background: #02cb96;
+}
+
+.active{
+    color: #009970;
+}
+
+.menuname:hover{
+    color: #009970;
+}
+
+#banner{
+    /* color: white; */
+    height: 100vh;
+    width: 100%;
+}
+.sub-parent-banner{
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner-title{
+    font-family: "Raleway",sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.dot{
+    color: #05ffbc;
+}
+.banner-para{
+    font-family: "OpenSans",sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.banner-btn{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    height: 70px;
+    width: 110px;
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+}
+.banner-btn:hover{
+    background-color: #009970;
+    border-color: #009970;
+}
+
+#service{
+    height: 500px;
+    background: black;
+    overflow: hidden;
+
+}
+#service-title{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.2px;
+}
+#parentbox{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.address span{
+    margin-top: 10px;
+}
+.box{
+    height: 280px;
+    width: 280px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.box-title{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 5px;
+    color: #009970;
+    text-transform: uppercase;
+    border-bottom: 1px double #009970;
+}
+.box-para{
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+}
+.box:hover{
+    border-color: #009970;
+}
+#map{
+    padding: 15px 5px;
+    height: 400px;
+    /*  */
+}
+#contacts{
+    display: flex;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+}
+
+.boxx{
+    padding: 5px 8px;
+}
+.box1{
+    flex: 2;
+}
+.box2{
+    flex: 1;
+}
+
+#links{
+    list-style-type: none;
+    padding: 0;
+}
+#links a{
+    text-decoration: none;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+.link{
+    text-align: left;
+    padding: 3px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#inputs,#btn{
+    padding: 5px 8px;
+}
+#inputs{
+    outline: none;
+    margin-top: 40px;
+}
+#btn{
+    border: 2px solid #009970;
+    background: #009970;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.brands{
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #009970;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.spac{
+    margin-top: 10px;
+}
+.social-icons{
+    margin-top: 20px;
+}
+
+.symbols{
+    color: #009970;
+    font-size: 13px;
+}
+#links a:hover{
+    color: #009970;
+}
+.link:hover{
+    color: #009970;
+}
+.brands:hover{
+    color: black;
+    background: #009970;
+}
+
+#data-form{
+    padding: 15px 20px;
+    background: black;
+    
+}
+.sub-parent-form{
+    display: flex;
+    padding: 15px 20px;
+}
+.left-data-form{
+    flex: 1;
+    /* background: greenyellow; */
+    color: white;
+}
+.right-data-form{
+    /* background: blue; */
+    flex: 1;
+    padding: 5px;
+    /* justify-content: center; */
+}
+.inpts{
+    width: 97%;
+    padding: 8px 10px;
+    margin-top: 20px;
+    outline: none;
+    border: 2px solid #009970;
+    
+}
+.input-groups{
+    display: flex;
+    gap: 8px;
+}
+.parent-icons{
+    display: flex;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icos{
+    padding: 20px;
+    background: #009970;
+    border-radius: 30%;
+    /* height: 50px; */
+    /* width: 40px; */
+}
+.icos,.ico-para{
+    margin-bottom: 25px;
+}
+
+/* .ics{
+    /* margin-top: 20px; }*/
+.ico-para p{
+    font-size: 18px;
+}
+/* .ico-arrange{
+    /* margin-top: 20px; }*/
+
+#links a:hover{
+    color: #009970;
+}
+.link:hover{
+    color: #009970;
+}
+.brands:hover{
+    color: black;
+    background: #009970;
+}
+
+footer{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    background: rgba(0, 0, 0, 0.96);
+    color: white;
+}
