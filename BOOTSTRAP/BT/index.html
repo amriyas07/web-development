@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Sure</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Nav Bar -->
+    <section id="top-nav">
+        <div class="container d-none  d-xl-flex justify-content-between">
+            <div class="top-left d-flex gap-3">
+              <div class="location">
+                <i class="fa-solid fa-location-dot fa-sm mx-1" style="color: #015fc9;"></i>
+                <span>Find A Location</span>
+              </div>
+              <span style="color: #015fc9;">|</span>
+              <div class="mail">
+                <i class="fa-solid fa-envelope fa-sm mx-1" style="color: #015fc9;"></i>
+                <a href="mailto:example@gmail.com" class="text-decoration-none">example@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="top-right d-flex gap-3">
+              <div class="social-icon">
+                <i class="fa-brands fa-facebook-f fa-sm mx-2" style="color: #015fc9;"></i>
+                <i class="fa-brands fa-twitter fa-sm mx-2" style="color: #015fc9;"></i>
+                <i class="fa-brands fa-instagram fa-sm mx-2" style="color: #015fc9;"></i>
+                <i class="fa-brands fa-linkedin-in fa-sm mx-2" style="color: #015fc9;"></i>
+              </div>
+              <span style="color: #015fc9;">|</span>
+              <div class="language">
+                <i class="fa-solid fa-earth-europe fa-sm mb-2" style="color: #015fc9;"></i>
+                <ul class="list-unstyled d-inline mx-1" >
+                  <li class="nav-item dropdown d-inline">
+                    <a class="nav-link dropdown-toggle d-inline" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      English
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Tamil</a></li>
+                      <li><a class="dropdown-item" href="#">Hindi</a></li>
+                      <li><a class="dropdown-item" href="#">French</a></li>
+                      <li><a class="dropdown-item" href="#">Russian</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header Section -->
+
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
+            <div class="container" style="background: white;">
+              <a class="navbar-brand" href="#"><i class="fab fa-slack me-2"></i>LifeSure</a>
+              <button class="navbar-toggler brg-btn custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse p-2 rounded" id="navbarSupportedContent" style="background: #F2F5F9;">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-menu">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Our Features</a></li>
+                      <li><a class="dropdown-item" href="#">Our team</a></li>
+                      <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                      <li><a class="dropdown-item" href="#">FAQs</a></li>
+                      <li><a class="dropdown-item" href="#">404 Page</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+
+                <form class="d-flex align-items-center nav-btn" role="search">
+                    <span class="srch"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                    <button class="btn rounded-pill mx-3" type="submit">Get a Quote</button>
+                  </form>
+              </div>
+              
+              <!-- <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: tada;">
+                    <i class="fa fa-phone-alt fa-2x"></i>
+                    <div class="position-absolute" style="top: 7px; right: 12px;">
+                        <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                    </div>
+                </a>
+                <div class="d-flex flex-column ms-3">
+                    <span>Call to Our Experts</span>
+                    <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: + 0123 456 7890</span></a>
+                </div>
+            </div> -->
+            <div class="d-none  d-xl-flex">
+                <span class="symbl mx-2">
+                    <i class="fa fa-phone-alt fa-xl"></i>
+                    <i class="fa-solid fa-comment-dots fa-xs" style="color: #74C0FC;"></i>
+                </span>
+                <div class="txt">
+                    <span class="txt-para">Call to Our Experts</span> <br>
+                    <span class="txt-link"><a href="tel:+01234567890">Free: + 0123 456 7890</a></span>
+                </div>
+              </div>
+
+            </div>
+          </nav>
+    </section>
+
+    <!-- Banner Section -->
+
+    <section id="banner">
+      <div class="container">
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center py-5">
+                <div class="col-xl-5 my-4" data-aos="fade-right">
+                  <img src="assets/image/carousel-2.png" alt="banner-image">
+                </div>
+                <div class="col-xl-7 my-4" data-aos="fade-left">
+                  <h4 class="fw-bold mb-4 text-uppercase text-white">Welcome To LifeSure</h4>
+                  <h1 class="display-1 text-white mb-4 fw-bold">Life Insurance Makes You Happy</h1>
+                  <p class="text-white fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt accusamus facere amet dolores inventore laborum, est ipsa odit...</p>
+                  <div class="button-group d-flex my-4">
+                    <a href="#" class="btn rounded-pill fw-bold btn1" style="color: #015fc9;"><i class="fa-solid fa-circle-play fa-lg mx-2"></i>Watch video</a>
+                    <a href="#" class="btn rounded-pill fw-bold text-white btn2">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center py-5">
+                <div class="col-xl-7 my-4">
+                  <h4 class="fw-bold mb-4 text-uppercase text-white">Welcome To LifeSure</h4>
+                  <h1 class="display-1 text-white mb-4 fw-bold">Life Insurance Makes You Happy</h1>
+                  <p class="text-white fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt accusamus facere amet dolores inventore laborum, est ipsa odit...</p>
+                  <div class="button-group d-flex my-4">
+                    <a href="#" class="btn rounded-pill fw-bold btn1" style="color: #015fc9;"><i class="fa-solid fa-circle-play fa-lg mx-2"></i>Watch video</a>
+                    <a href="#" class="btn rounded-pill fw-bold text-white btn2">Learn more</a>
+                  </div>
+                </div>
+                <div class="col-xl-5 my-4">
+                  <img src="assets/image/carousel-2.png" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="feature-sec container-fluid py-4">
+      <div class="container py-5">
+        <div class="feature-sec-tp" data-aos="fade-up">
+          <h4 class="text-primary text-center">Our Features</h4>
+          <h1 class="display-4 fw-bold text-center mb-4">Insurance Provide you a Better Future</h1>
+          <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</p>
+        </div>
+
+        <div class="feature-sec-btm my-5">
+          <div class="row d-flex flex-column flex-md-row flex-lg-row flex-xl-row align-items-center justify-content-between px-1">
+            <div class="features col-md-6 box my-sm-3 my-md-2 mx-lg-1 mx-xl-1" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+              <i class="far fa-handshake fa-3x px-2 py-4"></i>
+              <h4 class="px-3 mt-3">Trusted Company</h4>
+              <p class="px-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...             </p>
+              <a href="" class="mx-3 btn rounded-pill fw-bold btns">Learn more</a>
+            </div>
+            <div class="features col-md-6 box my-sm-3 my-md-2 mx-lg-1 mx-xl-1" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+              <i class="fa fa-dollar-sign fa-3x px-4 py-4"></i>
+              <h4 class="px-3 mt-3">Anytime Money Back</h4>
+              <p class="px-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...             </p>
+              <a href="" class="mx-3 btn rounded-pill fw-bold btns">Learn more</a>
+            </div>
+            <div class="features col-md-6 box my-sm-3 my-md-2 mx-lg-1 mx-xl-1" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+              <i class="fa fa-bullseye fa-3x px-3 py-4"></i>
+              <h4 class="px-3 mt-3">Flexible Plans</h4>
+              <p class="px-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...             </p>
+              <a href="" class="mx-3 btn rounded-pill fw-bold btns">Learn more</a>
+            </div>
+            <div class="features col-md-6 box my-sm-3 my-md-2 mx-lg-1 mx-xl-1" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+              <i class="fa fa-headphones fa-3x px-3 py-4"></i>
+              <h4 class="px-3 mt-3">24/7 Fast Support</h4>
+              <p class="px-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...             </p>
+              <a href="" class="mx-3 btn rounded-pill fw-bold btns">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- about section -->
+    <section class="about container-fluid">
+      <div class=" container px-2">
+        <div class="row gx-5">
+          <div class="about-left col mx-5 w-100" data-aos="fade-right">
+           <div class="p-1">
+            <h4 class="mt-5">About Our Company</h4>
+            <h1 class="display-4 fw-bold my-3">High Range of Exploring Protection</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo,</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae eligendi modi hic</p>
+            <p><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
+            <p><i class="fa fa-check text-primary me-3"></i>Production or trading of good.</p>
+            <p><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible.</p>
+            <a href="#" class="btn rounded-pill p-3 fw-bold mt-2">More Information</a>
+           </div>
+          </div>
+          <div class="about-right col mx-5 w-100" data-aos="fade-left">
+            <div class="abt-r p-1">
+              <img src="assets/image/about-1.png" class="mt-5 w-100"  alt="Banner"/>
+              <div class="container text-center">
+                <div class="row g-2 py-5">
+                  <div class="about-box col-6">
+                    <div class="p-3">
+                      <span class="fs-2 fw-bold text-primary">129</span>
+                      <span class="fs-2 text-primary">+</span>
+                      <h4>Insurance Policies</h4>
+                    </div>
+                  </div>
+                  <div class="about-box col-6">
+                    <div class="p-3">
+                      <span class="fs-2 fw-bold text-primary">99</span>
+                      <span class="fs-2 text-primary">+</span>
+                      <h4>Awards WON</h4>
+                    </div>
+                  </div>
+                  <div class="about-box col-6">
+                    <div class="p-3">
+                      <span class="fs-2 fw-bold text-primary">556</span>
+                      <span class="fs-2 text-primary">+</span>
+                      <h4>Skilled Agents</h4>
+                    </div>
+                  </div>
+                  <div class="about-box col-6">
+                    <div class="p-3">
+                      <span class="fs-2 fw-bold text-primary">967</span>
+                      <span class="fs-2 text-primary">+</span>
+                      <h4>Team Members</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- services section -->
+    <section class="services container-fluid p-1">
+      <div class="container py-4 ">
+        <div class="row d-flex flex-column flex-md-row flex-lg-row flex-xl-row align-items-center justify-content-between">
+          <div class="card cards" style="width: 18rem;" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="assets/image/blog-1.png" class="card-img-top w-100" alt="service-image" />
+            <i class="fa fa-users fa-2x p-3"></i>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Life Insurance</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
+              <a href="#" class="btn rounded-pill fw-bold text-white">Read More</a>
+            </div>
+          </div>
+
+          <div class="card cards" style="width: 18rem;" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="assets/image/blog-2.png" class="card-img-top w-100" alt="service-image" />
+            <i class="fa fa-hospital fa-2x p-3"></i>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Health Insurance</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
+              <a href="#" class="btn rounded-pill fw-bold text-white">Read More</a>
+            </div>
+          </div>
+
+          <div class="card cards" style="width: 18rem;" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="assets/image/blog-3.png" class="card-img-top w-100" alt="service-image" />
+            <i class="fa fa-car fa-2x p-3"></i>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Car Insurance</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
+              <a href="#" class="btn rounded-pill fw-bold text-white">Read More</a>
+            </div>
+          </div>
+
+          <div class="card cards" style="width: 18rem;" data-aos="fade-up" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="assets/image/blog-4.png" class="card-img-top w-100" alt="service-image" />
+            <i class="fa fa-home fa-2x p-3"></i>
+            <div class="card-body bg-light">
+              <h5 class="card-title">Home Insurance</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
+              <a href="#" class="btn rounded-pill fw-bold text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- <span class="d-flex justify-content-center"><a href="#" class="btn rounded-pill fw-bold text-white col-2 p-2 mt-4 mx-3">More Services</a></span> -->
+      </div>
+    </section>
+    <!-- FAQ Section -->
+     <section class="faq container-fluid bg-light p-2">
+      <div class="container py-4">
+        <div class="row d-flex flex-column flex-md-row flex-lg-row flex-xl-row align-items-center justify-content-evenly">
+          <div class="col-xl-6 faq-left" data-aos="fade-left">
+            <h4 class="my-2 y mx-2 faq-title">Some Important FAQ's</h4>
+            <h1 class="display-4 fw-bold my-4">Common Frequently Asked Questions</h1>
+            <div class="accordion my-2" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 faq-right" data-aos="fade-right">
+            <img src="assets/image/carousel-2.png" class="w-100 h-100" alt="faq-image"/>
+          </div>
+        </div>
+      </div>
+     </section>
+<!-- blog section -->
+    <section class="blogs container-fluid p-1">
+      <div class="container py-4">
+        <div class="blogs-para" data-aos="fade-up">
+          <h4 class="my-2">From Blog</h4>
+          <h1 class="display-4 fw-bold my-2">News And Updates</h1>
+          <p class="text-center my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</p>
+        </div>
+        <div class="row d-flex flex-column flex-md-row flex-lg-row flex-xl-row align-items-center justify-content-evenly">
+          <div class="card mb-3" style="width: 25rem;" data-aos="fade-up-right">
+            <img src="assets/image/blog-3.png" class="card-img-top" alt="blog-image">
+            <span class="ico-title">Business</span>
+            <div class="blog-cards card-body">
+              <div class="blog-icons d-flex justify-content-between my-3">
+                <div class="blog-icon">
+                  <span class="fa fa-user text-primary"></span>
+                  <span class="">Rajesh.K</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-calendar text-primary"></span>
+                  <span class="">30 Jan 2024</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-comment-alt text-primary"></span>
+                  <span class="">6 Comments</span>
+                </div>
+              </div>
+              <h5 class="card-title my-1">Leverage agile frameworks to provide</h5>
+              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+              <a href="#" class="text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="width: 25rem;" data-aos="fade-up">
+            <img src="assets/image/blog-2.png" class="card-img-top" alt="blog-image">
+            <span class="ico-title">Business</span>
+            <div class="blog-cards card-body">
+              <div class="blog-icons d-flex justify-content-between my-3">
+                <div class="blog-icon">
+                  <span class="fa fa-user text-primary"></span>
+                  <span class="">Ragul.M</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-calendar text-primary"></span>
+                  <span class="">20 Jul 2024</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-comment-alt text-primary"></span>
+                  <span class="">4 Comments</span>
+                </div>
+              </div>
+              <h5 class="card-title my-1">Leverage agile frameworks to provide</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+              <a href="#" class="text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="width: 25rem;" data-aos="fade-up-left">
+            <img src="assets/image/blog-1.png" class="card-img-top" alt="blog-image">
+            <span class="ico-title">Business</span>
+            <div class="blog-cards card-body">
+              <div class="blog-icons d-flex justify-content-between my-3">
+                <div class="blog-icon">
+                  <span class="fa fa-user text-primary"></span>
+                  <span class="">Prem.S</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-calendar text-primary"></span>
+                  <span class="">1 Apr 2024</span>
+                </div>
+
+                <div class="blog-icon">
+                  <span class="fa fa-comment-alt text-primary"></span>
+                  <span class="">10 Comments</span>
+                </div>
+              </div>
+              <h5 class="card-title my-1">Which allows you to pay down insurance bills</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+              <a href="#" class="text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- teams section -->
+    <section class="teams container-fluid p-1">
+      <div class="container py-4">
+        <div class="teams-para" data-aos="fade-up">
+          <h4 class="text-center my-2">Our Team</h4>
+          <h1 class="display-4 fw-bold my-2">Meet Our Expert Team Members</h1>
+          <p class="mt-4 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum, quos amet explicabo labore fugit aliquam repellat minus culpa temporibus, doloribus, veniam facere atque! Totam quo maxime similique distinctio laboriosam.
+          Eligendi dolorum maiores quod, sunt natus velit culpa dolore nam est explicabo iure voluptate fuga corporis aliquam ipsum cumque architecto doloremque quisquam accusamus, repellendus libero? Dolorum illum est tempore ut.</p>
+        </div>
+      <div class="row d-flex flex-column flex-md-row flex-lg-row flex-xl-row align-items-center justify-content-evenly">
+        <div class="team-cards card" style="width: 17rem;" data-aos="fade-up-right">
+          <div class="team-img w-100">
+            <img src="assets/image/team-1.jpg" class="card-img-top w-100" alt="teams-image"/>
+          </div>
+          <div class="icons d-flex flex-column gap-3">
+            <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="team-card card-body">
+            <h4 class="text-white">David James</h4>
+            <p class="card-text text-white">Professsion</p>
+          </div>
+        </div>
+
+        <div class="team-cards card" style="width: 17rem;" data-aos="fade-up">
+          <div class="team-img w-100">
+            <img src="assets/image/team-2.jpg" class="card-img-top w-100" alt="teams-image"/>
+          </div>
+          <div class="icons d-flex flex-column gap-3">
+            <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="team-card card-body">
+            <h4 class="text-white">David James</h4>
+            <p class="card-text text-white">Professsion</p>
+          </div>
+        </div>
+
+        <div class="team-cards card" style="width: 17rem;" data-aos="fade-up">
+          <div class="team-img w-100">
+            <img src="assets/image/team-3.jpg" class="card-img-top w-100" alt="teams-image"/>
+          </div>
+          <div class="icons d-flex flex-column gap-3">
+            <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="team-card card-body">
+            <h4 class="text-white">David James</h4>
+            <p class="card-text text-white">Professsion</p>
+          </div>
+        </div>
+
+        <div class="team-cards card" style="width: 17rem;" data-aos="fade-up-left">
+          <div class="team-img w-100">
+            <img src="assets/image/team-4.jpg" class="card-img-top w-100" alt="teams-image"/>
+          </div>
+          <div class="icons d-flex flex-column gap-3">
+            <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="team-card card-body">
+            <h4 class="text-white">David James</h4>
+            <p class="card-text text-white">Professsion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+<!-- Customers section -->
+    <section class="customers container-fluid p-2">
+      <div class="container py-4">
+        <div class="customers-para" data-aos="fade-up">
+          <h4 class="text-center my-2">Testimonial</h4>
+          <h1 class="display-4 fw-bold my-2">What Our Customers Are Saying</h1>
+          <p class="mt-4 px-4 mb-4 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</p>
+        </div>
+        <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="4000">
+          <div class="item">
+            <div class="customer-card card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="founder-image w-100 h-100">
+                    <img src="assets/image/testimonial-1.jpg" class="img-fluid rounded-start w-100 h-100" alt="founder-image"/>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body h-100 rounded-end">
+                    <h3 class="card-title">Client Name</h3>
+                    <h4 class="text-secondary">Profession</h4>
+                    <div class="rating d-flex gap-2 my-2">
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="customer-card card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="founder-image h-100 w-100">
+                    <img src="assets/image/testimonial-2.jpg" class="img-fluid rounded-start w-100 h-100" alt="founder-image"/>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body rounded-end h-100">
+                    <h3 class="card-title">Client Name</h3>
+                    <h4 class="text-secondary">Profession</h4>
+                    <div class="rating d-flex gap-1 my-2">
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="customer-card card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="founder-image w-100 h-100">
+                    <img src="assets/image/testimonial-3.jpg" class="img-fluid rounded-start w-100 h-100" alt="founder-image"/>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body rounded-end h-100">
+                    <h3 class="card-title">Client Name</h3>
+                    <h4 class="text-secondary">Profession</h4>
+                    <div class="rating d-flex gap-1 my-2">
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star star-1"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+<!-- Contacts section -->
+ <section class="contacts container-fluid p-2">
+  <div class="container py-3">
+    <div class="d-flex text-white flex-column flex-md-row flex-lg-row flex-xl-row justify-content-between">
+      <div class="left-box d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-evenly">
+        <div class="boxx p-2">
+          <div class="logo my-2">
+            <a class="text-decoration-none text-white" href="#"><i class="fab fa-slack me-2"></i>LifeSure</a>
+          </div>
+          <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est. <br/> Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+          <div class="social-icons d-flex gap-3 my-2">
+            <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f" style="padding-left: 15px;padding-right: 15px;"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="boxx p-2 boxx2">
+          <h6 class="mt-2">Useful Links</h6>
+          <ul class="list-unstyled my-4">
+            <li><i class="fas fa-angle-right me-2 text-secondary"></i><a href="#" class="text-decoration-none">About us</a></li>
+            <li><i class="fas fa-angle-right me-2 text-secondary"></i><a href="#" class="text-decoration-none">Features</a></li>
+            <li><i class="fas fa-angle-right me-2 text-secondary"></i><a href="#" class="text-decoration-none">Services</a></li>
+            <li><i class="fas fa-angle-right me-2 text-secondary"></i><a href="#" class="text-decoration-none">Blogs</a></li>
+            <li><i class="fas fa-angle-right me-2 text-secondary"></i><a href="#" class="text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="boxx p-2">
+          <h6 class="mt-2">Instagram</h6>
+          <div class="container text-center my-4">
+            <div class="row row-cols-2 contacts-img my-4">
+              <div class="col contact-img"><img src="assets/image/instagram-footer-1.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+              <div class="col contact-img"><img src="assets/image/instagram-footer-2.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+              <div class="col contact-img"><img src="assets/image/instagram-footer-3.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+              <div class="col contact-img"><img src="assets/image/instagram-footer-4.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+              <div class="col contact-img"><img src="assets/image/instagram-footer-5.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+              <div class="col contact-img"><img src="assets/image/instagram-footer-6.jpg" class="w-100 h-100" alt="contacts-image"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-box">
+        <div class="boxx p-2">
+          <h6 class="mt-2">Newsletter</h6>
+          <p class="my-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="contact-btn d-flex p-2 justify-content-between rounded-pill">
+            <input type="email" class="p-1" />
+            <input type="button" class="btn rounded-pill btn-primary fw-bold" value="SignUp"/>
+          </div>
+          <div class="d-flex my-4 p-0">
+            <span class="symbl mx-2">
+                <i class="fa fa-phone-alt fa-xl"></i>
+                <i class="fa-solid fa-comment-dots fa-xs" style="color: #74C0FC;"></i>
+            </span>
+            <div class="p-0">
+                <span class="">Call to Our Experts</span> <br>
+                <span class=""><a href="tel:+01234567890" class="text-white text-decoration-none">Free: + 0123 456 7890</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- Footers section -->
+ <footer class="p-4 text-center container-fluid">
+  <div class="footer-para">
+    <p>&copy; copyright By Mr DeenBro All Rights Reserved</p>
+    <h6>Designed By A.M.RIYAS</h6>
+  </div>
+</footer>
+
+<div class="top-ico">
+  <a href="#" class="text-decoration-none"><i class="fa fa-arrow-up"></i></a>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+    </script>
+    
+</body>
+</html>
