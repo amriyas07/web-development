@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#data{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.field .inpts{
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline-color: dodgerblue;
+}
+.field select{
+    width: 320px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.field img{
+    margin-top: 30px;
+    height: 200px;
+    width: 320px;
+    border: 2px solid #ccc;
+    display: none;
+}
+.radio-data,.check-data{
+    display: flex;  
+    justify-content: center;
+    /* s */
+}
+.field .radio-data input{
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    /* margin-bottom: 20px;
+    font-size: 1.2rem; */
+    border-radius: 5px;
+    outline-color: dodgerblue;
+}
+.field .check-data input{
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.field textarea{
+    margin-top: 10px;
+    width: 320px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    outline-color: dodgerblue;
+}
+.field .radio-data label{
+    margin-left: 3px;
+}
+.field .check-data label{
+    margin-left: 3px;
+}
+.error{
+    color: red;
+    margin-bottom: 25px;
+}
+.button .btn{
+    width: 320px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: aliceblue;
+}
